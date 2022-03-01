@@ -10,6 +10,6 @@ language_experience_pack_isos:
     dest: '{{ language_experience_pack_download_dir }}\inboxapps.iso'
 
 language_experience_packs:
-  - de-de
+  - fr-fr
 
 language_experience_pack_isos_remove_when_finished: true
