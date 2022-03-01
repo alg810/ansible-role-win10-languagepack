@@ -1,5 +1,8 @@
----
-- hosts: localhost
-  remote_user: root
+- hosts: win10multi
+  vars:
+    language_experience_pack_download_dir: 'D:\temp'
+    language_experience_packs:
+      - fr-fr
+
   roles:
-    - ansible-role-win-languagepack
+    - { role: ansible-role-win10-languagepack }
